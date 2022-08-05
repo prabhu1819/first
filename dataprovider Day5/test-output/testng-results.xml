@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-30T19:21:44 IST" name="Suite" finished-at="2022-07-30T19:22:14 IST" duration-ms="29867">
+    <groups>
+    </groups>
+    <test started-at="2022-07-30T19:21:44 IST" name="Test" finished-at="2022-07-30T19:22:14 IST" duration-ms="29867">
+      <class name="TestNG.dataprovider">
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:TestNG.dataprovider@778d1062]" started-at="2022-07-30T19:21:44 IST" name="search" data-provider="dp" finished-at="2022-07-30T19:21:59 IST" duration-ms="14864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeetamnur1804@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:TestNG.dataprovider@778d1062]" started-at="2022-07-30T19:21:59 IST" name="search" data-provider="dp" finished-at="2022-07-30T19:22:13 IST" duration-ms="14060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amnurjeet1804@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24589]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- TestNG.dataprovider -->
+      <class name="TestNG.datapself">
+        <test-method signature="browser(java.lang.String,java.lang.String)[pri:0, instance:TestNG.datapself@48fa0f47]" started-at="2022-07-30T19:21:44 IST" name="browser" data-provider="dp" finished-at="2022-07-30T19:22:01 IST" duration-ms="16933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeetamnur1804@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="browser(java.lang.String,java.lang.String)[pri:0, instance:TestNG.datapself@48fa0f47]" started-at="2022-07-30T19:22:01 IST" name="browser" data-provider="dp" finished-at="2022-07-30T19:22:14 IST" duration-ms="12859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amnurjeet1804@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24589]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- TestNG.datapself -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
